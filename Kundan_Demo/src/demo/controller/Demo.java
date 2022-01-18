@@ -6,6 +6,10 @@ public class Demo {
 		
 		
 		System.out.println("kundan here .");
+		
+		
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.google.com/");
 	}
 
 }
